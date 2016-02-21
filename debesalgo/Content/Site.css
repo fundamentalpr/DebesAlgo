@@ -1,6 +1,12 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background:#676767 url("bkg-playa.jpg") no-repeat;
+    background-size:cover;
+   background-position:center;
+    width:auto;
+    font-family: 'PT Sans', sans-serif;
+    color:white;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -60,3 +66,37 @@ textarea {
 .closed-business-admin .business {
     margin-bottom:1em;
 }
+
+.main-search {
+    border:10px solid gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+    /*opacity:0.5;*/
+    width:300px;
+    clear:both;
+    margin:0 auto;
+}
+
+/*.main-search:hover {
+     border:10px solid green;
+     opacity:1;
+}*/
+
+.logo {
+    float:left;
+    /*display:inline-block;*/
+}
+
+.title {
+    font-family: 'PT Sans', sans-serif;
+    font-size:36px;
+    color:white;
+    width:55%;
+    padding:20px;
+    margin:0 auto;
+ 
+}
+
+
+
