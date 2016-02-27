@@ -17,20 +17,22 @@
     </div>
    
 </div>
-
-
-
-
 <div class="row">
-    <div class="col-md-6 " style="margin-bottom:5px;text-align:center">
+    <div class="col-md-2 sidebar-second pull-right">
+        <div class="well well-sm">
 
-       
+            <div>
+                <ul data-bind="foreach: Data.TownTags" style="list-style-type: none; display:inline;">
+                    <li style="list-style-type: none; display:inline; margin-right:10px;"><a href="#" data-bind="text:$data, click:$root.InvokeTag "></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 
 <div class="row">
 
-    <div class="col-md-6 ">       
+    <div class="col-md-12">       
 
        
 
@@ -97,19 +99,8 @@
 
 
     </div>
-    <div class="col-md-3 sidebar-first col-md-pull-6">
-
-    </div>
-    <div class="col-md-3 sidebar-second">
-        <div class="well well-sm">
-           
-            <div>
-                <ul data-bind="foreach: Data.TownTags" style="list-style-type: none; display:inline;">
-                    <li style="list-style-type: none; display:inline; margin-right:10px;"><a href="#" data-bind="text:$data, click:$root.InvokeTag "></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+   
+   
     
 </div>
 @section scripts{
